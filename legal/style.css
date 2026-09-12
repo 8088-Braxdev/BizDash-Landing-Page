@@ -1,0 +1,30 @@
+.legal-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.legal-container h1 {
+  color: #2ecc9c;
+  margin-bottom: 8px;
+}
+
+.legal-container .updated {
+  opacity: 0.6;
+  font-size: 13px;
+  margin-bottom: 32px;
+}
+
+.legal-container h2 {
+  color: #2ecc9c;
+  font-size: 18px;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.legal-container p {
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 4px;
+}
