@@ -190,6 +190,45 @@ section h2 {
     margin-left: 16px;
     font-size: 13px;
   }
+  /* Hamburger button - hidden by default on desktop */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #f4f1ea;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* Mobile nav behavior */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .site-header nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(13, 31, 26, 0.98);
+    padding: 20px 0;
+  }
+
+  .site-header nav.nav-open {
+    display: flex;
+  }
+
+  .site-header nav a {
+    margin: 12px 24px;
+  }
+
+  .site-header {
+    position: relative;
+  }
+}
 
   .hero h1 {
     font-size: 28px;
