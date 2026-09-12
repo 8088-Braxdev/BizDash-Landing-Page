@@ -21,3 +21,4 @@ navLinks.forEach(function (link) {
     mainNav.classList.remove("nav-open");
   });
 });
+lucide.createIcons();
