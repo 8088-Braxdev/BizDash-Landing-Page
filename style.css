@@ -389,6 +389,14 @@ h3 [data-lucide] {
     margin: 12px 24px;
   }
 }
+.site-footer p a {
+  color: var(--emerald-400);
+  text-decoration: none;
+}
+
+.site-footer p a:hover {
+  text-decoration: underline;
+}
 
 /* ---------- Respect people who turn animations off ---------- */
 @media (prefers-reduced-motion: reduce) {
