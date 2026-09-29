@@ -365,7 +365,7 @@ h3 [data-lucide] {
   }
 
   .site-header {
-    position: relative;
+    position: sticky;
     padding: 14px 20px;
   }
 
