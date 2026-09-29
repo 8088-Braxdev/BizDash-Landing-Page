@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bizdash.braxcode.com/sitemap.xml
