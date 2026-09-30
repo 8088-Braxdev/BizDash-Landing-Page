@@ -22,3 +22,8 @@ navLinks.forEach(function (link) {
   });
 });
 lucide.createIcons();
+const cta = document.getElementById("main-cta");
+if (cta && document.cookie.split("; ").includes("bizdash_member=1")) {
+  cta.textContent = "Log in";
+  cta.href = "https://bizdash-app.braxcode.com/?login=1";
+}
